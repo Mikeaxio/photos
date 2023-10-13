@@ -1,4 +1,5 @@
-import Image from "next/image";
+"use client"
+import { CldImage } from "next-cloudinary";
 import React from "react";
 
 export default function page() {
@@ -6,7 +7,14 @@ export default function page() {
     <div>
       {" "}
       I rendered
-      <Image
+      <CldImage
+      fill
+      src="page-contact-cover_1_un2jzu"
+      sizes="100vw"
+      alt="Apartments Cover Image"
+      />
+
+      {/* <Image
         src={
           "https://newburypublic.s3.amazonaws.com/website/page-home-hero.jpg"
         }
@@ -16,7 +24,7 @@ export default function page() {
         alt="Apartments Cover Image"
         style={{ objectFit: "cover" }}
         priority={true}
-      />
+      /> */}
     </div>
   );
 }
