@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <div>
-      I rendered
+      I rende
       <Image
         src={
           "https://newburypublic.s3.amazonaws.com/website/page-home-hero.jpg"
