@@ -18,7 +18,7 @@ export default function Home() {
       I rende
       <Image
         src={
-          "https://newburypublic.s3.amazonaws.com/website/ArborWoods-website_ccexpress.jpeg"
+          "https://newburypublic.s3.amazonaws.com/website/page-home-hero.jpg"
         }
         width={1080}
         height={615}
