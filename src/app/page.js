@@ -10,7 +10,7 @@ export default function Home() {
       `w_${width}`,
       `q_${quality || "auto"}`,
     ];
-    return `https://res.cloudinary.com/ddkh2zp4m/image/upload/${params.join(",")}${src}`;
+    return `https://newburypublic.s3.amazonaws.com/website/page-contact-cover.jpg`;
   }
 
   return (
