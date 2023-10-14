@@ -17,9 +17,8 @@ export default function Home() {
     <div>
       I rendered
       <Image
-        loader={cloudinaryLoader}
         src={
-          "/iStock-1177797403_rrxzom"
+          "https://newburypublic.s3.amazonaws.com/website/page-contact-cover.jpg"
         }
         fill
         sizes="100vw"
