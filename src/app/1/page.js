@@ -9,9 +9,10 @@ export default function page() {
       I rendered
       <CldImage
       fill
-      src="iStock-1177797403_rrxzom"
+      src="/hero.jpg"
       sizes="100vw"
       alt="Apartments Cover Image"
+      placeholder="blur"
       />
 
       {/* <Image
