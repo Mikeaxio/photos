@@ -20,8 +20,8 @@ export default function Home() {
         src={
           "https://newburypublic.s3.amazonaws.com/website/page-home-hero.jpg"
         }
-        width={1080}
-        height={615}
+        width={2121}
+        height={1414}
         sizes="100vw"
         quality={100}
         alt="Apartments Cover Image"
