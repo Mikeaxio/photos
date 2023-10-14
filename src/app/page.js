@@ -18,16 +18,13 @@ export default function Home() {
     <div>
       I rende
       <Image
-        src={
-         hero
-        }
+        src={"https://newburypublic.s3.amazonaws.com/website/Hero-1177797403_adobespark+(1)_adobespark+(1).jpg"}
         fill={true}
         sizes="100vw"
         quality={100}
         alt="Apartments Cover Image"
         style={{ objectFit: "cover" }}
-        placeholder="blur"
-        
+        priority={true}
       />
     </div>
   );
