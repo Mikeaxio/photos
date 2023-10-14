@@ -3,22 +3,23 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
-  function imgixLoader({ src, width, quality }) {
-    const url = new URL(`https://example.com${src}`)
-    const params = url.searchParams
-    params.set('auto', params.getAll('auto').join(',') || 'format')
-    params.set('fit', params.get('fit') || 'max')
-    params.set('w', params.get('w') || width.toString())
-    params.set('q', (quality || 50).toString())
-    return url.href
+  function cloudinaryLoader({ src, width, quality }) {
+    const params = [
+      "f_auto",
+      "c_limit",
+      `w_${width}`,
+      `q_${quality || "auto"}`,
+    ];
+    return `https://res.cloudinary.com/ddkh2zp4m/image/upload/${params.join(",")}${src}`;
   }
 
   return (
     <div>
       I rendered
       <Image
+        loader={cloudinaryLoader}
         src={
-          "https://newbury-887694351.imgix.net/website/page-home-hero.jpg"
+          "/iStock-1177797403_rrxzom"
         }
         fill
         sizes="100vw"
