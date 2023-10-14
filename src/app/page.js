@@ -14,7 +14,7 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div style={{width: '100%', height: '100vh'}}>
       I rende
       <Image
         src={
