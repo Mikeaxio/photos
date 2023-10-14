@@ -18,9 +18,10 @@ export default function Home() {
       I rende
       <Image
         src={
-          "https://newburypublic.s3.amazonaws.com/website/optimized-delete+(1).jpg"
+          "https://newburypublic.s3.amazonaws.com/website/ArborWoods-website_ccexpress.jpeg"
         }
-        fill={true}
+        width={1080}
+        height={615}
         sizes="100vw"
         quality={100}
         alt="Apartments Cover Image"
