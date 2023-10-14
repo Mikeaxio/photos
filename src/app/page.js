@@ -18,7 +18,7 @@ export default function Home() {
       I rendered
       <Image
         src={
-          "https://newburypublic.s3.amazonaws.com/website/page-contact-cover.jpg"
+          "https://newburypublic.s3.amazonaws.com/website/page-home-hero.jpg"
         }
         width={1920}
         height={1080}
