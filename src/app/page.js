@@ -7,7 +7,7 @@ export default function Home() {
       I rendered
       <Image
         src={
-          "https://newburypublic.s3.amazonaws.com/website/delete.jpg"
+          "https://newburypublic.s3.amazonaws.com/website/delete-min.jpg"
         }
         fill
         sizes="100vw"
