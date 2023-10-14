@@ -26,6 +26,7 @@ export default function Home() {
         alt="Apartments Cover Image"
         style={{ objectFit: "cover" }}
         priority={true}
+        loading="eager"
       />
     </div>
   );
