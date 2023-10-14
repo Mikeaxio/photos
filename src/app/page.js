@@ -18,7 +18,7 @@ export default function Home() {
       I rende
       <Image
         src={
-          "https://newburypublic.s3.amazonaws.com/website/unoptimized-small.jpg"
+          "https://newburypublic.s3.amazonaws.com/website/optimized-delete+(1).jpg"
         }
         fill={true}
         sizes="100vw"
