@@ -18,7 +18,7 @@ export default function Home() {
       I rendered
       <Image
         src={
-          "https://newburypublic.s3.amazonaws.com/website/page-home-hero.jpg"
+          "https://newbury-887694351.imgix.net/website/page-home-hero.jpg"
         }
         fill
         sizes="100vw"
@@ -26,7 +26,6 @@ export default function Home() {
         alt="Apartments Cover Image"
         style={{ objectFit: "cover" }}
         priority={true}
-        loading="eager"
       />
     </div>
   );
