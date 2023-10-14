@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import styles from "./page.module.css";
-import hero from "../../public/hero.jpg"
 
 export default function Home() {
   function cloudinaryLoader({ src, width, quality }) {
@@ -18,7 +17,9 @@ export default function Home() {
     <div>
       I rende
       <Image
-        src={"https://newburypublic.s3.amazonaws.com/website/Hero-1177797403_adobespark+(1)_adobespark+(1).jpg"}
+        src={
+          "https://newburypublic.s3.amazonaws.com/website/unoptimized-delete.jpg"
+        }
         fill={true}
         sizes="100vw"
         quality={100}
