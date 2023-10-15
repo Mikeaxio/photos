@@ -14,12 +14,18 @@ export default function Home() {
   }
 
   return (
-    <div style={{width: '100%', height: '100vh'}}>
+    <div style={{ width: "100%", height: "100vh" }}>
       I rende
-  
-          <img
-        src="https://newburypublic.s3.amazonaws.com/website/page-home-hero.jpg"
-        alt="react logo"
+      <Image
+        src={
+          "https://newburypublic.s3.amazonaws.com/website/del.jpg"
+        }
+        width={8660}
+        height={5773}
+        quality={100}
+        sizes={8660}
+        alt="Apartments Cover Image"
+        style={{ objectFit: "cover" }}
       />
     </div>
   );
