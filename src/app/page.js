@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <div style={{ width: "100%", height: "100vh" }}>
       I rende
-      <CldImage
+      <Image
       width={5000}
       height={3333}
-      src="page-contact-cover_2_isvft4"
+      src="https://newburypublic.s3.amazonaws.com/website/delete-7.jpg"
       alt="Apartments Cover Image"
 
       />
