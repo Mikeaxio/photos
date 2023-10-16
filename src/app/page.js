@@ -11,7 +11,7 @@ export default function Home() {
       <Image
       width={5000}
       height={3333}
-      src="https://newburypublic.s3.amazonaws.com/website/Alabama-Shore-Pic.jpg"
+      src="https://d15jic88q0ym6f.cloudfront.net/website/Alabama-Shore-Pic.jpg"
       alt="Apartments Cover Image"
 
       />
