@@ -11,7 +11,7 @@ export default function Home() {
       <CldImage
       width={5000}
       height={3333}
-      src="page-contact-cover_2_isvft4"
+      src="delete-min_ee9mtq"
       alt="Apartments Cover Image"
 
       />
