@@ -9,8 +9,7 @@ export default function Home() {
     <div style={{ width: "100%", height: "100vh" }}>
       I rende
       <Image
-      width={5000}
-      height={3333}
+      fill={true}
       src="https://d15jic88q0ym6f.cloudfront.net/website/Alabama-Shore-Pic.jpg"
       alt="Apartments Cover Image"
 
