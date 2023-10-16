@@ -9,8 +9,9 @@ export default function Home() {
     <div style={{ width: "100%", height: "100vh" }}>
       I rende
       <Image
-      fill={true}
-      src="https://d15jic88q0ym6f.cloudfront.net/website/evolve-drawing+board+condensed.jpg"
+      width={5000}
+      height={3333}
+      src="https://d15jic88q0ym6f.cloudfront.net/generics/iStock-145155089.jpg"
       alt="Apartments Cover Image"
 
       />
