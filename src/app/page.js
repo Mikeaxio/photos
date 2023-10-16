@@ -11,7 +11,7 @@ export default function Home() {
       <Image
       width={5000}
       height={3333}
-      src="https://newburypublic.s3.amazonaws.com/website/2100Springport_1Bedroom+Kitchen.jpg"
+      src="https://newburypublic.s3.amazonaws.com/website/missing.png"
       alt="Apartments Cover Image"
 
       />
