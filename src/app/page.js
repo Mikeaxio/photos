@@ -3,18 +3,30 @@ import { CldImage } from "next-cloudinary";
 import Image from "next/image";
 import styles from "./page.module.css";
 
+
+
 export default function Home() {
-
+  function imgixLoader({ src, width, quality }) {
+    const url = new URL(`https://newbury-887694351.imgix.net${src}`)
+    const params = url.searchParams
+    params.set('auto', params.getAll('auto').join(',') || 'format')
+    params.set('fit', params.get('fit') || 'max')
+    params.set('w', params.get('w') || width.toString())
+    params.set('q', (quality || 70).toString())
+    return url.href
+  }
   return (
-    <div style={{ width: "100%", height: "100vh" }}>
-      I rende
-      <Image
-      width={5000}
-      height={3333}
-      src="https://d15jic88q0ym6f.cloudfront.net/generics/iStock-145155089.jpg"
-      alt="Apartments Cover Image"
 
-      />
-    </div>
+      <div >
+        I rende
+        <Image
+        loader={imgixLoader}
+          fill={true}
+          src="/website/page-home-hero.jpg"
+          alt="Apartments Cover Image"
+          style={{ objectFit: "cover" }}
+        />
+      </div>
+
   );
 }
