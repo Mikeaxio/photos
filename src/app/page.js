@@ -10,7 +10,8 @@ export default function Home() {
       I rende
       <Image
       fill={true}
-      src="https://d15jic88q0ym6f.cloudfront.net/website/Alabama-Shore-Pic.jpg"
+      //src="https://d15jic88q0ym6f.cloudfront.net/website/Alabama-Shore-Pic.jpg"
+      src="https://newburypublic.s3.amazonaws.com/website/Alabama-Shore-Pic.jpg"
       alt="Apartments Cover Image"
 
       />
